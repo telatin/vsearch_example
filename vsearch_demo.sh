@@ -11,7 +11,7 @@ initialpath=$PWD;
 # If vsearch is not in path, alter this line:
 
 VSEARCH_BIN="vsearch"
-MAP_SCRIPT="$thispath/map.pl"
+MAP_SCRIPT="perl $thispath/map.pl"
 PROCESSOR_SCRIPT="$thispath/vsearch_derep_processor.sh"
 ANNOTAX_SCRIPT="$thispath/annotax.sh"
 GOLD_REFERENCE_DB="$thispath/gold.fasta"
